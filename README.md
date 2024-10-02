@@ -5,7 +5,7 @@ This project contains Python scripts allowing you to perform statistical tests t
 Ce projet contient les scripts Python permettant d'effectuer des tests statistiques pour comparer les performances dans le raisonnement diagnostique de différents modèles de langage dans des cas cliniques, en anglais et français, dans le cadre d'une thèse de médecine.
 
 Thèse réalisée par les doctorants Corvellec Josselin et Sid-Ahmed Sofiane.\
-Dirigée par le Professeur Gourraud Pierre-Antoine.\ 
+Dirigée par le Professeur Gourraud Pierre-Antoine.\
 Co-dirigée par le Docteur Bazoge Adrien.\ 
 Présidée par le Professeur Fournier Jean-Pascal.\ 
 Membre du jury : le Docteur Hinzelin Grégoire.

@@ -1,0 +1,13 @@
+.DS_Store
+
+# Environnements virtuels
+venv/
+env/
+myenv/
+
+# Fichiers compilés Python
+*.pyc
+__pycache__/
+
+# Paramètres de l'éditeur
+.vscode/

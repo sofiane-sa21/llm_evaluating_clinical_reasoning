@@ -79,11 +79,8 @@ couleurs_specialites: Dict[str, str] = {
     'Urologie-Néphrologie': '#93779D'
 }
 
-# Cette fn lit toutes les données dans un Pd.DataFrame en fonction
-# du LLM demandé dans sheet_name
+# Cette fn lit toutes les données dans un Pd.DataFrame en fonction du LLM demandé dans sheet_name
 # ex : get_data('Biomistral_EN') récupère toutes les notes de Biomistral en anglais
-
-
 def get_data(sheet_name: llm_types):
     data = pd.read_excel(file_path, sheet_name)
     return data[~data.ID.isin(exclude[sheet_name])]
@@ -91,7 +88,7 @@ def get_data(sheet_name: llm_types):
 
 # Cette fonction récupère les données mais élimine les notes
 # communes à exclure entre deux modèles avant
-# Initialement faire pour comparer Biomistral à GPT, obsolète du coup car exclu des analyses
+# Initialement faite pour comparer Biomistral à GPT, obsolète du coup car exclu des analyses
 def get_compared_data(model_one: llm_types, model_two: llm_types):
     data_one = pd.read_excel(file_path, model_one)
     data_two = pd.read_excel(file_path, model_two)
@@ -104,7 +101,7 @@ def get_compared_data(model_one: llm_types, model_two: llm_types):
 
 
 # Fonction qui récupère les données de tous les modèles et les concat
-# dans une variable. Utilisé principalement pour le Spearman je crois
+# dans une variable. Utilisé principalement pour le Spearman
 def get_all_data():
     notes_gpt_en = get_data('GPT_EN')
     notes_gpt_fr = get_data('GPT_FR')
@@ -120,6 +117,6 @@ def get_all_data():
 def get_cc_ref():
     return pd.read_excel(file_path, sheet_name="CC_REF")
 
-
+# Obsolète
 def get_global_data():
     return pd.read_excel(file_path, sheet_name="GLOBAL")

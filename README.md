@@ -6,8 +6,8 @@ Ce projet contient les scripts Python permettant d'effectuer des tests statistiq
 
 Thèse réalisée par les doctorants Corvellec Josselin et Sid-Ahmed Sofiane.\
 Dirigée par le Professeur Gourraud Pierre-Antoine.\
-Co-dirigée par le Docteur Bazoge Adrien.\ 
-Présidée par le Professeur Fournier Jean-Pascal.\ 
+Co-dirigée par le Docteur Bazoge Adrien.\
+Présidée par le Professeur Fournier Jean-Pascal.\
 Membre du jury : le Docteur Hinzelin Grégoire.
 
 ## Structure du projet

@@ -68,7 +68,7 @@ Vous pouvez tester vous-même les scripts en vous rendant dans le dépôt via le
 python boxplot.py
 ```
 
-Les scripts génèrent les résultats des tests statistiques qui sont visibles dans le terminal.
+Vous pouvez répéter ce script pour chaque fichier .py. Les scripts génèrent les résultats des tests statistiques qui sont visibles dans le terminal.
 
 ## Licence
 
